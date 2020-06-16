@@ -241,15 +241,7 @@ ul li a:hover{
 }
 
 .img-python {
-  background-image: url(img/me.jpg);width:100px;
-  height: 100px;
-  background-size: 100%;
-  background-image: url(img/gmail.jpeg);
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  background-repeat: no-repeat;
+  display: none;
 }
 
 /*CONTACT PAGE*/
@@ -347,9 +339,17 @@ body {
     line-height: 22px;
   }
 
-  .img-python{
+  .img-python {
+    height: 100px;
+    background-size: 100%;
     background-image: url(img/python.png);
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-repeat: no-repeat;
   }
+
   .img-java{
     background-image: url(img/java.jpeg);
   }
