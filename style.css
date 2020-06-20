@@ -1,0 +1,545 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+/* MY CODE - PHONE*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+}
+body {
+  background-color: #000;
+  color: #fff
+}
+
+
+.bottom {
+  width : 100%;
+}
+
+nav {
+  background-color: #000;
+  height: 100px;
+  width: 100%;
+}
+
+ul {
+  margin:0;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+/*  color: #FFF;*/
+  color: #FFF;
+  display: block;
+  padding: 40px 15px;
+  width: 100%;
+  text-align: center;
+}
+
+ul li a:hover{
+  /*color: #5C5C5C;*/
+  color: #FFF24B;
+}
+
+.img-me{
+  width:200px;
+  height: 200px;
+  background-size: 100%;
+  background-image: url(img/me1.jpg);
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+.hi{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 10px;
+  color: #FFF24B;
+}
+.intro{
+  padding: 0px 30px 30px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  font-size: 30px;
+  line-height: 45px;
+  width: 100%;
+}
+
+main a{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 20px
+}
+main a:hover{
+  color : #FFF24B;
+}
+.cv {
+  display: block;
+  text-align: center;
+  padding: 20px 0px;
+}
+.about {
+  text-align: center;
+  display: block;
+  padding: 20px 0px;
+
+
+}
+
+
+/*ABOUT PAGE*/
+
+.about-head {
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #FFF24B;
+}
+
+.about-intro h1 {
+  text-align: center;
+  padding: 15px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+
+}
+.about-intro p {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0px 15px;
+  line-height: 30px
+}
+
+.skills {
+  padding: 0px 15px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.skills h2 {
+  text-align: center;
+  padding: 25px 0px 0px;
+  font-size: 20px;
+  color: #FFF24B;
+
+}
+.skills h3 {
+  font-size: 20px;
+  padding: 10px;
+}
+.skills p {
+  padding: 5px;
+}
+
+.education {
+  padding: 0px 15px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.education h2 {
+  text-align: center;
+  padding: 25px 0px 0px;
+  font-size: 20px;
+  color: #FFF24B;
+
+}
+.education h3 {
+  font-size: 20px;
+  padding: 10px;
+}
+.education p {
+  padding: 5px;
+}
+
+
+
+
+
+/*PROJECT PAGE*/
+
+.projects h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  padding: 25px;
+  font-weight: 900;
+}
+.demo {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  padding: 30px 20px;
+  display: block;
+  width: 150px;
+  height: 20px;
+}
+.projects p {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  padding: 20px 20px 0px 20px;
+  line-height: 20px;
+}
+
+.project-code {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+  line-height: 20px;
+  display: block;
+  width: 100px;
+  height: 20px;
+  padding: 10px 35px;
+}
+.projects h2 {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*CONTACT PAGE*/
+p.gmail{
+  text-align: center;
+}
+p.number{
+  text-align: center;
+}
+
+.gmail-img{
+  width:100px;
+  height: 80px;
+  background-size: 90%;
+  background-image: url(img/gmail.png);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+
+}
+.phone-img{
+  width:100px;
+  height: 100px;
+  background-size: 100%;
+  border-radius: 50%;
+  background-image: url(img/phone.jpg);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+}
+.linkedin-img{
+  width:100px;
+  height: 100px;
+  background-size: 100%;
+  background-image: url(img/linkedin.png);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  display: block;
+  width: 90px;
+  height: 90px;
+}
+.github-img{
+  width:100px;
+  height: 100px;
+  background-size: 100%;
+  background-image: url(img/github.jpg);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+/*Desktop*/
+
+@media only screen and (min-width: 1000px) {
+
+  .wrapper {
+    width: 1000px;
+    height: 575px;
+    margin: 0 auto;
+  }
+
+  .intro {
+    width: -60%;
+    padding: 20px 0px 20px 0px;
+    font-size: 45px;
+  }
+
+  .hi{
+    text-align: left;
+    padding: 150px 0px 0px 30px;
+  }
+
+  .img-me{
+    width: 40%;
+    height: 375px;
+    float: left;
+    margin-top: 100px;
+  }
+
+  main a{
+    font-size: 25px
+  }
+  .cv {
+    float: right;
+    margin-right: 130px;
+
+  }
+  .about {
+
+    float: none;
+  }
+
+
+/*ABOUT PAGE*/
+  .skills p{
+    width: 65%;
+    line-height: 22px;
+  }
+
+  .education p{
+    width: 65%;
+    line-height: 22px;
+  }
+
+  .img-python {
+    width : 70px;
+    height : 70px;
+    background-image: url(img/python.png);
+    background-size:  100%;
+    background-repeat: no-repeat;
+    float: right;
+    padding-bottom: 5px;
+  }
+
+  .img-java{
+    width : 90px;
+    height : 90px;
+    background-image: url(img/javaB.jpeg);
+    background-size:  100%;
+    background-repeat: no-repeat;
+    float: right;
+  }
+  .img-html{
+    width : 90px;
+    height : 90px;
+    background-image: url(img/HTML.png);
+    background-size:  100%;
+    background-repeat: no-repeat;
+    float:right;
+  }
+  .img-css{
+    width : 80px;
+    height : 80px;
+    background-image: url(img/CSS.png);
+    background-size:  100%;
+    background-repeat: no-repeat;
+    float: right;
+  }
+  .img-trinity {
+    width : 100px;
+    height : 100px;
+    background-image: url(img/trinity.png);
+    background-size:  100%;
+    background-repeat: no-repeat;
+    float: right;
+    padding-bottom: 5px;
+    margin-right: 100px
+  }
+
+
+
+
+
+
+
+  /*PROJECTS*/
+
+  .demo {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 30px 20px;
+    display: block;
+    width: 150px;
+    height: 20px;
+  }
+  .projects p {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 20px 20px 0px 20px;
+    line-height: 20px;
+    width: 50%;
+  }
+
+  .project-code {
+    display:none;
+  }
+  .projects h2 {
+    float: right;
+    padding-right: 100px;
+    color: white;
+    display: block;
+  }
+  .github-img-projects{
+
+    width:50px;
+    height: 50px;
+    background-size: 100%;
+    background-image: url(img/github.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 150px;
+  }
+  .projects h2 {
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 20px 75px 0px 20px;
+    line-height: 20px;
+    width: 50%;
+  }
+
+
+}
