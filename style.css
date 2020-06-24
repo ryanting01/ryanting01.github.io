@@ -162,7 +162,7 @@ ul li a:hover{
   width:200px;
   height: 200px;
   background-size: 100%;
-  background-image: url(img/me1.jpg);
+  background-image: url(img/me.jpg);
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -452,7 +452,7 @@ p.number{
   .img-java{
     width : 90px;
     height : 90px;
-    background-image: url(img/javaB.jpeg);
+    background-image: url(img/java.jpeg);
     background-size:  100%;
     background-repeat: no-repeat;
     float: right;
